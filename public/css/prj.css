@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border-radius: 10px;
+    /* color: white; */
+    font-family: sans-serif ,  'Dosis';
+    scroll-behavior: smooth;
+
+}
+
+
+a{
+    display: inline-block;
+}
+
+header{
+    height: 90px;
+}
+
+.imgheader,.imgheader2{
+    width: 60px;
+    transition: all 0.5s;
+    
+}
+
+.imgheader:hover{   
+    transform: rotate(360deg); 
+   width: 4vw;
+}
+
+.spannichou{
+  font-weight: bolder;
+  transition: all 0.3s;
+  letter-spacing: 1px;
+  
+
+
+}
+
+span{
+    display: inline-block;
+}
+
+
+.spannichou:hover{
+    color: cyan;
+    transform: translateY(-12px);
+    transition-duration: .1s;
+    
+}
+
+
+   
+
+
+.ichouimage{
+    display: flex;
+    align-items: center;
+}
+
+.leslettre{
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.leslink{
+    font-size: 17px;
+}
+
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.linka{
+    
+    padding: 10px 15px ;
+     margin: 0px 13px;
+     opacity: 0.5;
+    transition: all 0.2s;
+}
+
+.butoon{
+    all: unset;
+    padding: 10px 14px;
+    background-color: transparent;
+    border-radius: 10px;
+    opacity: 0.5;
+    transition: all 0.2s;
+}
+
+.linka:hover{
+    opacity: 1;
+}
+.butoon:hover{
+    opacity: 1;
+}
+
+
+.white{
+    opacity: 1;
+    transition: all 0.3s;
+}
+
+
+.sectioncyan{
+    color: cyan;
+}
+
+
+/* 
+keyframes parent {
+    0% {
+        opacity: 0;
+       transform: scale(6,6);
+    }
+    50%{
+        opacity: 0.3;
+        transform: scale(5,5);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1,1);
+        
+    }
+} */
+
+
+.parent{
+    display: inline-block;
+   display: flex;
+   flex-direction: column;
+    font-size: 30px;
+    text-align: center;
+    margin: 40px auto ;
+   
+    /* animation: parent 1s 1 linear ;
+    animation-duration: O.1s; */
+}
+/* 
+@keyframes html{
+    0%,100%{
+        overflow: hidden;
+    }
+} */
+/* 
+html{
+    animation: html 1s 1 ;
+    animation-duration: O.1s;
+
+} */
+
+.margin{margin: 20px;}
+
+.paragr{font-size:50px ;
+font-weight: bold;
+}
+
+.button2{
+    flex-grow: 0;
+    all: unset;
+    border: 1px solid white;
+    width: 200px;
+    padding: 15px 17px;
+    border-radius: 30px;
+   margin: 15px 10px;
+   font-size: 23px;
+}
+
+.button2:hover{
+    background-color: rgb(86, 86, 242);
+    border: 1px solid rgb(86, 86, 242);
+}
+
+.widt{
+    width: 100px;
+    height: 100px;
+
+}
+
+
+
+
+
+
+.parentsbutton{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(126, 119, 119);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-track{
+    background-color: rgb(0, 14, 40);
+}
+
+
+::-webkit-scrollbar{
+    width: 7px;
+}
+
+
+
+
+
+
+
+#econ1{
+  cursor: pointer;
+}
+#iconn{
+  cursor: pointer;
+}
+
+

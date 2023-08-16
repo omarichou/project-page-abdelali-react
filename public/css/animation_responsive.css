@@ -1,0 +1,67 @@
+@keyframes rotat{
+   0%{
+    transform: rotate(0deg);
+   }
+   50%{
+    transform: rotate(180deg);
+   }
+
+   100%{
+    transform: rotate(360deg);
+   }
+
+}
+
+.ecoo{
+    animation: rotat 0.5s 1 linear;
+}
+
+
+
+
+@keyframes opa{
+
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+
+    100%{
+        opacity: 1;
+    }
+
+}
+
+
+.res_para{
+    animation: opa 0.3s 1 linear;
+}
+
+
+
+
+@keyframes opa2{
+
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0.5;
+    }
+
+    100%{
+        opacity: 0;
+    }
+
+}
+
+
+
+
+
+
+.ani_op{
+  opacity: 0;
+}
